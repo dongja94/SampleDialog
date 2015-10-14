@@ -157,4 +157,9 @@ public class MainActivity extends AppCompatActivity {
             }
         }, 200);
     }
+
+    public void onDialogFragment(View view) {
+        FirstDialogFragment dialog = new FirstDialogFragment();
+        dialog.show(getSupportFragmentManager(), "dialog");
+    }
 }
