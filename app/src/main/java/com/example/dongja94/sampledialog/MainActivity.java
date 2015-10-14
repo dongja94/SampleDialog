@@ -162,4 +162,9 @@ public class MainActivity extends AppCompatActivity {
         FirstDialogFragment dialog = new FirstDialogFragment();
         dialog.show(getSupportFragmentManager(), "dialog");
     }
+
+    public void onCustomDialog(View view) {
+        CustomDialogFragment dialog = new CustomDialogFragment();
+        dialog.show(getSupportFragmentManager(), "custom");
+    }
 }
